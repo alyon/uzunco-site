@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#141917"/><path d="M20 18v18a12 12 0 0 0 24 0V18" fill="none" stroke="#5FC3D2" stroke-width="6" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    path { fill: #2548B8; }
+    @media (prefers-color-scheme: dark) { path { fill: #9DBAFF; } }
+  </style>
+  <!-- At 16px: y=8 aligns to 2px, the arms are 3px, and the open joint is 2px. -->
+  <path fill="#2548B8" d="M8 8H20V40Q20 48 28 48V60Q8 60 8 40ZM44 8H56V40L44 60H36V48L44 36Z" />
+</svg>
